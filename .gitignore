@@ -1,0 +1,53 @@
+# OSX
+.DS_Store
+
+# Basics
+*.py[cod]
+__pycache__
+
+
+# MySQL Data
+data/mysql
+
+# Logs
+logs
+*.log
+pip-log.txt
+npm-debug.log*
+
+# Webpack
+webpack-stats.json
+
+# virtual environments
+.env
+
+# Cache
+.cache/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.code-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# custom
+uploads*
+backend/migrations*
+.ipynb_checkpoints
+
+# Esteban
+sftp-config.json
+desktop.ini
+
+#frontend
+/frontend/node_modules
+frontend/package-lock.json
